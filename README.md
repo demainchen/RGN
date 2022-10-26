@@ -2,7 +2,7 @@
 The source code of RGN:Residual based graph attention and convolutional network for protein-protein interaction site prediction.
 
 # Data:
-Since our dataset exceeds the maximum upload capacity of Github, please download our processed dataset at this link(https://www.aliyundrive.com/s/umv2QqRuCFC.  password:3j0c ).
+Since our dataset exceeds the maximum upload capacity of Github, please download our processed dataset at this link(https://www.aliyundrive.com/s/5YcmUQ5HHGK. password:18wj ).
 There are three files, named Dset_1291, Dset_315 and Dset_395 respectively.
 All protein sequences are stored in PKL file format.
 
