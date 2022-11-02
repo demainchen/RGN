@@ -54,13 +54,7 @@ We give an example case in the Example file and you can need use it without down
 python3 example.py 
 ```
 
-# Example
 
-We give an example case in the Example file and you can need use it without download anything.
-
-# contact
-
-If you have any questions, please contact Wenqi Chen(Email:[demainchen@gmail.com](mailto:demainchen@gmail.com)).
 
 # contact
 
