@@ -8,7 +8,7 @@ All protein sequences are stored in PKL file format.
 
 If you want to test the performance on your own data, please make sure you install the following software and download the corresponding databases:
 
-(1) PSSM 
+(1) PSSM need BLAST("https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/") and UNIREF90("https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref90/uniref90.fasta.gz")
 
 # contact
 If you have any questions, please contact Wenqi Chen(Email:demainchen@gmail.com).
