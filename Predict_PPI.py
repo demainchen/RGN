@@ -112,14 +112,20 @@ torch.manual_seed(SEED)
 
 
 import os
-base_path='saved/335_60'
+import argparse
+parser = argparse.ArgumentParser(description='Protein-Protein interaction site prediction')
+parser.add_argument('--model', type=str, default='saved/335_60')
+parser.add_argument('--dataset', type=str, default='path_to_you_own_Dset_60')
+
+args = parser.parse_args()
+base_path=args.model
 save_model_name=os.listdir(base_path)
 save_model_path=[base_path+'/'+i for i in save_model_name]
 
-test_60_path='Test_60.pkl'
+data_path=args.dataset
 
 from config import Config
-test_data = Test_Data(data_path=test_60_path)
+test_data = Test_Data(data_path=data_path)
 
 for i in save_model_path:
     model = deepGCN(Layer, INPUT_DIM, HIDDEN_DIM, NUM_CLASSES, DROPOUT, LAMBDA, ALPHA, VARIANT,
@@ -131,4 +137,4 @@ for i in save_model_path:
 
 
 
-
+# python Predict_PPI.py -pre_model saved/335_60 -dataset chain_ID
