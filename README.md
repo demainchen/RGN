@@ -48,7 +48,7 @@ python3 Predict_PPI.py -pre_model your_saved/1215_315 -dataset your_Dset_315
 
 # Example
 
-We give an example case in the Example file and you can need use it without download anything.
+We give an example case in the Example file and it can be download in https://drive.google.com/drive/folders/1jo_QNMIcjEDwNv1jKUVCeeRN7UQRGyEi?usp=sharing.
 
 ```
 python3 example.py 
