@@ -7,6 +7,8 @@ There are three files, named Dset_1291, Dset_315 and Dset_395 respectively.
 All protein sequences are stored in PKL file format.
 
 If you want to test the performance on your own data, please make sure you install the following software and download the corresponding databases:
-(1) PSSM (":)
+
+(1) PSSM 
+
 # contact
 If you have any questions, please contact Wenqi Chen(Email:demainchen@gmail.com).
