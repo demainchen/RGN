@@ -32,7 +32,29 @@ Predicting the PPI by the Model
 
 Since our pre-trained model exceeds the maximum upload capacity of Github, we upload all the pre-trained model in this link. 
 
-There are 252_63, 335_60, 335_315,1215_315 respectively in the link, which means the model training on the Dset_252 and testing on Dset_63 as so on.
+There are 252_63, 335_60, 335_315,1215_315 respectively in (“https://drive.google.com/drive/folders/1_baPkIS5kQQ3kSlg23_ozlGNKhus4ssW?usp=sharing“), which means the model training on the Dset_252 and testing on Dset_63 as so on.
+
+Please download all the pre-trained model and place it in saved file.
+
+    python3 Predict_PPI.py -pre_model your_saved/335_60 -dataset your_Dset_60
+
+    python3 Predict_PPI.py -pre_model your_saved/252_63 -dataset your_Dset_63
+
+    python3 Predict_PPI.py -pre_model your_saved/1215_315 -dataset your_Dset_315
+
+Example
+
+We give an example case in the Example file and you can need use it without download anything.
+
+    python3 example.py 
+
+Example
+
+We give an example case in the Example file and you can need use it without download anything.
+
+contact
+
+If you have any questions, please contact Wenqi Chen(Email:demainchen@gmail.com).
 
 contact
 
