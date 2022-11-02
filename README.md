@@ -6,7 +6,7 @@ The source code of RGN:Residual based graph attention and convolutional network 
 
 # Data:
 
-Since our dataset exceeds the maximum upload capacity of Github, please download our processed dataset at this link(https://drive.google.com/drive/folders/1KoxQs4c4iZg4EqTn8SfC0FXqVnRW1Ihm?usp=sharing).
+Since our dataset exceeds the maximum upload capacity of Github, please download our processed dataset(about 5GB) at this link(https://drive.google.com/drive/folders/1KoxQs4c4iZg4EqTn8SfC0FXqVnRW1Ihm?usp=sharing).
 There are three files, named Dset_1291, Dset_315 and Dset_395 respectively.
 All protein sequences are stored in PKL file format.
 
@@ -28,7 +28,7 @@ The source code of the model is saved in the Model/layers.py.
 
 # Predicting the PPI by the Model
 
-Since our pre-trained model exceeds the maximum upload capacity of Github, we upload all the pre-trained model in this link. 
+Since our pre-trained model exceeds the maximum upload capacity of Github, we upload all the pre-trained model in this link(2GB). 
 
 There are 252_63, 335_60, 335_315,1215_315 respectively in (“https://drive.google.com/drive/folders/1_baPkIS5kQQ3kSlg23_ozlGNKhus4ssW?usp=sharing“), which means the model training on the Dset_252 and testing on Dset_63 as so on.
 
@@ -49,7 +49,7 @@ python3 Predict_PPI.py -pre_model your_saved/1215_315 -dataset your_Dset_315
 # Example
 
 We give an example case in the Example file and it can be download in https://drive.google.com/drive/folders/1jo_QNMIcjEDwNv1jKUVCeeRN7UQRGyEi?usp=sharing.
-In the Example file, just execute:
+In the Example file(100MB), just execute:
 ```
 python3 example.py 
 ```
