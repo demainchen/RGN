@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+# This code has been developed using Yuan et al. codes
+# link of the source code is "https://github.com/biomed-AI/GraphPPIS/
 import numpy as np
 
 import math
