@@ -1,15 +1,13 @@
 
 
-RGN
+# RGN
 
 The source code of RGN:Residual based graph attention and convolutional network for protein-protein interaction site prediction.
 
-Data:
+# Data:
 
 Since our dataset exceeds the maximum upload capacity of Github, please download our processed dataset at this link(https://drive.google.com/drive/folders/1KoxQs4c4iZg4EqTn8SfC0FXqVnRW1Ihm?usp=sharing).
-
 There are three files, named Dset_1291, Dset_315 and Dset_395 respectively.
-
 All protein sequences are stored in PKL file format.
 
 If you want to test the performance on your own data, please make sure you install the following software and download the corresponding databases:
@@ -24,11 +22,11 @@ If you want to test the performance on your own data, please make sure you insta
 
 
 
-Model
+# Model
 
 The source code of the model is saved in the Model/layers.py. 
 
-Predicting the PPI by the Model
+# Predicting the PPI by the Model
 
 Since our pre-trained model exceeds the maximum upload capacity of Github, we upload all the pre-trained model in this link. 
 
@@ -36,26 +34,34 @@ There are 252_63, 335_60, 335_315,1215_315 respectively in (“https://drive.goo
 
 Please download all the pre-trained model and place it in saved file.
 
-    python3 Predict_PPI.py -pre_model your_saved/335_60 -dataset your_Dset_60
+```python
+python3 Predict_PPI.py -pre_model your_saved/335_60 -dataset your_Dset_60
+```
 
-    python3 Predict_PPI.py -pre_model your_saved/252_63 -dataset your_Dset_63
+```python
+python3 Predict_PPI.py -pre_model your_saved/252_63 -dataset your_Dset_63
+```
 
-    python3 Predict_PPI.py -pre_model your_saved/1215_315 -dataset your_Dset_315
+```python
+python3 Predict_PPI.py -pre_model your_saved/1215_315 -dataset your_Dset_315
+```
 
-Example
+# Example
 
 We give an example case in the Example file and you can need use it without download anything.
 
-    python3 example.py 
+```
+python3 example.py 
+```
 
-Example
+# Example
 
 We give an example case in the Example file and you can need use it without download anything.
 
-contact
+# contact
 
-If you have any questions, please contact Wenqi Chen(Email:demainchen@gmail.com).
+If you have any questions, please contact Wenqi Chen(Email:[demainchen@gmail.com](mailto:demainchen@gmail.com)).
 
-contact
+# contact
 
-If you have any questions, please contact Wenqi Chen(Email:demainchen@gmail.com).
+If you have any questions, please contact Wenqi Chen(Email:[demainchen@gmail.com](mailto:demainchen@gmail.com)).
